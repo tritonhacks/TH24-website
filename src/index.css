@@ -1,0 +1,25 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap');
+
+/* colors */
+:root {
+  --csfe-blue: #4454E9;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
