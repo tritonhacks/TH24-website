@@ -1,6 +1,6 @@
 #landing-wrapper {
   display: flex;
-  margin: 0 35rem 0 20rem;
+  margin: 0 40vw 0 20vw;
   padding: 0;
   height: 100vh;
   flex-direction: column;
@@ -55,4 +55,29 @@
   top: 0%;
   right: 0%;
   height: 100vh;
+}
+
+@media (max-width: 920px) {
+  #landing-wrapper {
+    margin: 0 30vw 0 10vw;
+  }
+
+  #accent {
+    position: absolute;
+    margin-right: -40%;
+  }
+}
+
+@media (max-width: 750px) {
+  #landing-wrapper {
+    margin: 0 10vw;
+  }
+
+  #accent {
+    display: none;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
 }
