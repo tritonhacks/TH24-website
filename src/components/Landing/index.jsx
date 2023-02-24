@@ -16,18 +16,18 @@ const Landing = () => {
                 <p id="dates">Dates: May 21-22</p>
             </div>
             <img src={accent} alt="accent" id="accent" />
-            <a href="https://tally.so/r/3EqeJB" id="signup">Sign up!</a>
+            <a href="https://tally.so/r/3EqeJB" target="_blank" rel="noreferrer" id="signup">Sign up!</a>
             <div id="socials">
-                {/* <a target="_blank" href="/">
+                {/* <a target="_blank" href="/" rel="noreferrer">
                     <img src={discord} alt="Discord" id="discord" />
                 </a> */}
-                <a target="_blank" href="https://www.instagram.com/ucsdtritonhacks/">
+                <a target="_blank" href="https://www.instagram.com/ucsdtritonhacks/" rel="noreferrer">
                     <img src={instagram} alt="Instagram" id="instagram" />
                 </a>
-                <a target="_blank" href="https://www.linkedin.com/company/csforeach/">
+                <a target="_blank" href="https://www.linkedin.com/company/csforeach/" rel="noreferrer">
                     <img src={linkedin} alt="LinkedIn" id="linkedin" />
                 </a>
-                <a target="_blank" href="mailto:tritonhacks@gmail.com">
+                <a target="_blank" href="mailto:tritonhacks@gmail.com" rel="noreferrer">
                     <img src={mail} alt="Mail" id="mail" />
                 </a>
             </div>
