@@ -1,7 +1,7 @@
 import "./style.css";
 import accent from "../../assets/black_accent.svg";
 import logo from "../../assets/logo.svg";
-import discord from "../../assets/discord.svg";
+// import discord from "../../assets/discord.svg";
 import mail from "../../assets/mail.svg";
 import instagram from "../../assets/instagram.svg";
 import linkedin from "../../assets/linkedin.svg";
