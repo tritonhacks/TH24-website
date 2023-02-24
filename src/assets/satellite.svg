@@ -1,0 +1,35 @@
+<svg width="618" height="433" viewBox="0 0 618 433" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="213" cy="50" r="20" fill="#B380C8"/>
+<rect x="202" y="269.884" width="98" height="11" transform="rotate(-29.2492 202 269.884)" fill="#B380C8"/>
+<rect x="330" y="197.884" width="98" height="11" transform="rotate(-29.2492 330 197.884)" fill="#B380C8"/>
+<path d="M285 14.5L135.5 101C156 127.167 215.7 167.5 266.5 133.5C317.3 99.5 298 41.1667 285 14.5Z" fill="#587DFF"/>
+<rect y="319.562" width="242.019" height="130.862" rx="7" transform="rotate(-30.1839 0 319.562)" fill="white"/>
+<rect x="343" y="121.682" width="242.019" height="130.862" rx="7" transform="rotate(-30.1839 343 121.682)" fill="white"/>
+<rect x="317.904" y="115.076" width="217.446" height="118.362" rx="7" transform="rotate(59.2755 317.904 115.076)" fill="url(#paint0_linear_235_230)"/>
+<rect x="8.61426" y="322.666" width="55" height="55" transform="rotate(-29.8534 8.61426 322.666)" fill="#D9D9D9"/>
+<rect x="58.947" y="293.209" width="55" height="55" transform="rotate(-29.8534 58.947 293.209)" fill="#D9D9D9"/>
+<rect x="110.269" y="263.763" width="55" height="55" transform="rotate(-29.8534 110.269 263.763)" fill="#D9D9D9"/>
+<rect x="160.601" y="234.306" width="55" height="55" transform="rotate(-29.8534 160.601 234.306)" fill="#D9D9D9"/>
+<rect x="351" y="124.738" width="55" height="55" transform="rotate(-29.8534 351 124.738)" fill="#D9D9D9"/>
+<rect x="401.333" y="95.2812" width="55" height="55" transform="rotate(-29.8534 401.333 95.2812)" fill="#D9D9D9"/>
+<rect x="452.655" y="65.835" width="55" height="55" transform="rotate(-29.8534 452.655 65.835)" fill="#D9D9D9"/>
+<rect x="502.987" y="36.3779" width="55" height="55" transform="rotate(-29.8534 502.987 36.3779)" fill="#D9D9D9"/>
+<rect x="351" y="124.738" width="55" height="55" transform="rotate(-29.8534 351 124.738)" fill="#D9D9D9"/>
+<rect x="401.333" y="95.2812" width="55" height="55" transform="rotate(-29.8534 401.333 95.2812)" fill="#D9D9D9"/>
+<rect x="452.655" y="65.835" width="55" height="55" transform="rotate(-29.8534 452.655 65.835)" fill="#D9D9D9"/>
+<rect x="502.987" y="36.3779" width="55" height="55" transform="rotate(-29.8534 502.987 36.3779)" fill="#D9D9D9"/>
+<rect x="381" y="175.738" width="55" height="55" transform="rotate(-29.8534 381 175.738)" fill="#D9D9D9"/>
+<rect x="431.333" y="146.281" width="55" height="55" transform="rotate(-29.8534 431.333 146.281)" fill="#D9D9D9"/>
+<rect x="482.655" y="116.835" width="55" height="55" transform="rotate(-29.8534 482.655 116.835)" fill="#D9D9D9"/>
+<rect x="532.987" y="87.3779" width="55" height="55" transform="rotate(-29.8534 532.987 87.3779)" fill="#D9D9D9"/>
+<rect x="38" y="374.738" width="55" height="55" transform="rotate(-29.8534 38 374.738)" fill="#D9D9D9"/>
+<rect x="88.3328" y="345.281" width="55" height="55" transform="rotate(-29.8534 88.3328 345.281)" fill="#D9D9D9"/>
+<rect x="139.655" y="315.835" width="55" height="55" transform="rotate(-29.8534 139.655 315.835)" fill="#D9D9D9"/>
+<rect x="189.987" y="286.378" width="55" height="55" transform="rotate(-29.8534 189.987 286.378)" fill="#D9D9D9"/>
+<defs>
+<linearGradient id="paint0_linear_235_230" x1="381.48" y1="106.8" x2="532.771" y2="113.543" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A5BDFD"/>
+<stop offset="1" stop-color="#587DFF"/>
+</linearGradient>
+</defs>
+</svg>

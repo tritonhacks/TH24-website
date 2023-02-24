@@ -1,39 +1,32 @@
 import "./style.css";
-import accent from "../../assets/black_accent.svg";
-import logo from "../../assets/logo.svg";
-import discord from "../../assets/discord.svg";
-import mail from "../../assets/mail.svg";
-import instagram from "../../assets/instagram.svg";
-import linkedin from "../../assets/linkedin.svg";
+import saturn from "../../assets/saturn.png";
+import astronaut from "../../assets/astronaut.svg";
 
 
 const Landing = () => {
     return (
         <section id="landing-wrapper">
-            <div id="content">
-                <img src={logo} alt="CSforeach logo" id="logo" />
-                <h1 id="title">TritonHacks 2023 is coming soon!</h1>
-                <p id="dates">Dates: May 21-22</p>
+        {/* Foreground - text, buttons, etc */}
+        <div id="landing-fg">
+            <h1 id="landing-title">TritonHacks</h1>
+            <p id="date">May 20th - May 21st</p>
+            <div id="landing-btn-wrapper">
+            <a href="/apply" className="landing-btn">
+                APPLY NOW!
+            </a>
             </div>
-            <img src={accent} alt="accent" id="accent" />
-            <a href="/" id="signup">Sign up!</a>
-            <div id="socials">
-                <a href="/">
-                    <img src={discord} alt="Discord" id="discord" />
-                </a>
-                <a href="/">
-                    <img src={instagram} alt="Instagram" id="instagram" />
-                </a>
-                <a href="/">
-                    <img src={linkedin} alt="LinkedIn" id="linkedin" />
-                </a>
-                <a href="/">
-                    <img src={mail} alt="Mail" id="mail" />
-                </a>
-            </div>
-            <p id="footer">© 2022 by csforeach</p>
-        </section>
-    );
+        </div>
+
+        {/* Midground - static images */}
+        <div id="landing-mg">
+            <img src={saturn} alt="saturn" id="saturn" />
+            <img src={astronaut} alt="astronaut" id="astronaut" />
+        </div>
+
+        <div id="landing-bg">
+        </div>
+    </section>
+  );
 };
 
 export default Landing;

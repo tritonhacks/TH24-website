@@ -1,0 +1,31 @@
+#about-wrapper {
+    background: var(--white);
+    margin-top: -25px;
+    padding-bottom: 20px;
+}
+
+#about-content {
+    margin: 0 7rem;
+    padding-top: 20px;
+}
+
+#about {
+    font-size: 5rem;
+    color: var(--black);
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#about-paragraphs p {
+    font-size: 3rem;
+}
+
+#about-paragraphs a {
+    font-size: 3rem;
+    color: var(--black);
+    text-decoration: underline;
+}
+
+#learn-more {
+    text-align: center;
+}

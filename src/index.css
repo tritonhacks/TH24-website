@@ -1,9 +1,17 @@
 /* import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&family=Lato:wght@700&display=swap");
 
 /* colors */
 :root {
-  --csfe-blue: #4454E9;
+  --space-purple: #0F0237;
+  --purple: #B380C8;
+  --blue: #587DFF;
+  --white: #FFFFFF;
+  --gray: #020202;
+  --black: #0F0237;
+  --gold: #FBCC26;
+  --light-blue: #A5BDFD;
+
 }
 
 html,
@@ -12,14 +20,29 @@ body {
   padding: 0;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background: #0A0034;
 }
 
 * {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Cute Font", cursive;
   transition: 0.3s;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
+}
+
+/* stars */
+.stars {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png);
+  /* simple parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section1 {
+    background: linear-gradient(180deg, rgba(67, 13, 75, 0.06) 0%, #7190FF 100%);
 }

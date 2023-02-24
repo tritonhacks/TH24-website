@@ -1,15 +1,25 @@
+import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
+import Countdown from "./components/Countdown";
+import About from "./components/About";
+// import FAQ from "./components/FAQ";
+import Sponsors from "./components/Sponsors";
+import Contact from "./components/Contact";
+
 
 const App = () => {
   return (
     <div className="app-container">
-      {/* <Navbar /> */}
-      <Landing />
-      {/* <Countdown />
+      <div className="section1">
+        <Navbar />
+        <Landing />
+        <Countdown />
+      </div>
+
       <About />
-      <Prizes />
+      {/* <FAQ /> */}
       <Sponsors />
-      <Contact /> */}
+      <Contact />
     </div>
   );
 };

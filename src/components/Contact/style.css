@@ -1,0 +1,63 @@
+#footer {
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+    color: var(--white);
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+.col p, a {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 0;
+}
+
+.col a {
+    margin: 0 1rem;
+    text-decoration: underline;
+}
+
+#mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  display: inline-block;
+  margin: 2.5rem;
+}
+
+.footer-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.footer-links {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links a {
+  margin: 0.5rem;
+}
+
+#moon {
+  width: 100vw;
+}
