@@ -21,7 +21,7 @@ const Contact = () => {
                         <p>Contact Our Team</p>
                         <div id="mail">
                             <img className="footer-icon" src={mail} alt="email" />
-                            <a href="mailto:tritonhacks@gmail.com" className="icon">tritonhacks@gmail.com</a>
+                            <a href="mailto:tritonhacks@gmail.com" target="_blank" rel="noreferrer" className="icon">tritonhacks@gmail.com</a>
                         </div>
                     </div>
                     <div class="col">

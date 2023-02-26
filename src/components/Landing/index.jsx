@@ -10,7 +10,7 @@ const Landing = () => {
                 <h1 id="landing-title">TritonHacks</h1>
                 <p id="date">May 20th - May 21st</p>
                 <div id="landing-btn-wrapper">
-                    <a href="https://tally.so/r/3EqeJB" class="landing-btn">APPLY NOW</a>
+                    <a href="https://tally.so/r/3EqeJB" target="_blank" rel="noreferrer" class="landing-btn">APPLY NOW</a>
                 </div>
             </div>
 
