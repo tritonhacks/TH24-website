@@ -23,7 +23,7 @@ const links = [
 
 
 const Navbar = () => {
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
+  // const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
     <div class="navbar-container">
