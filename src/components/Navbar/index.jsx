@@ -31,13 +31,12 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </a>
       <div class="navbar-links">
-        <button
+        {/* <button
           className="hamburger"
           onClick={() => {
             setIsNavExpanded(!isNavExpanded);
           }}
         >
-          {/* icon from Heroicons.com */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
@@ -50,7 +49,7 @@ const Navbar = () => {
               clipRule="evenodd"
             />
           </svg>
-        </button>
+        </button> */}
         <div className="nav-menu">
           {/* <ul> */}
             {links.map((link, key) => (
