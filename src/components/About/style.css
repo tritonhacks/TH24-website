@@ -1,6 +1,6 @@
 #about-wrapper {
     background: var(--white);
-    margin-top: -25px;
+    margin: -30px 0;
     padding-bottom: 20px;
 }
 
@@ -10,22 +10,29 @@
 }
 
 #about {
-    font-size: 5rem;
+    font-size: 6rem;
     color: var(--black);
     margin-bottom: 0;
+    margin-left: 0;
     text-align: center;
 }
 
-#about-paragraphs p {
-    font-size: 3rem;
+#about-paragraph {
+    font-size: 1.85rem;
+    font-family: "Nanum Gothic", sans-serif;
+    text-align: center;
+    line-height: 3.0rem;
 }
 
-#about-paragraphs a {
+#learn-more a {
+    font-family: "Cute Font", cursive;
     font-size: 3rem;
     color: var(--black);
     text-decoration: underline;
 }
 
 #learn-more {
+    font-size: 3rem;
     text-align: center;
+    font-family: "Cute Font", cursive;
 }

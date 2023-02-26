@@ -4,8 +4,6 @@
   position: relative;
   left: 0px;
   top: 0px;
-  margin-top: 15em;
-
 }
 
 .countdown {
@@ -49,8 +47,11 @@
 #rocket {
   z-index: 1;
   position: absolute;
-  left: 58%;
+  left: 57.5vw;
   height: 85vh;
+}
+
+#rocket:hover {
   animation: shake .7s;
   animation-iteration-count: infinite;
 }
@@ -58,7 +59,7 @@
 #smoke {
   z-index: 0;
   position: relative;
-  width: 100%;
+  width: 100vw;
 }
 
 @keyframes shake {

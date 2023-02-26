@@ -5,11 +5,12 @@ const About = () => {
         <section id="about-wrapper">
             <div id="about-content">
                 <h1 id="about">Get ready to blast off!</h1>
-                <div id="about-paragraphs">
-                    <p>
-                        TritonHacks is a 30 hour hackathon dedicated to giving you the skills to pursue
-                        a career in technology-related fields. Using our collection of hand-made starter
-                        kits, personal mentors, and collaborative team spirit, ...
+                <div>
+                    <p id="about-paragraph">
+                        TritonHacks is a two-day high school level hackathon aimed at 
+                        providing greater access to CS education, specifically for 
+                        disadvantaged local communities lacking their own resources to 
+                        prepare students for careers in STEM fields.
                     </p>
                     <p id="learn-more">
                         Learn more about our other events&nbsp;

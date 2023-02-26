@@ -1,31 +1,60 @@
 #footer {
-    display: flex;
-    padding: 5rem;
-    justify-content: center;
-    color: var(--white);
+  margin-top: 10rem;
+}
+
+#content {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+h1 {
+  font-size: 8rem;
+  margin-left: 8rem;
+  margin-bottom: 0;
+}
+
+#terrain {
+  width: 100%;
+  margin-bottom: -250px;
+}
+
+#rover {
+  position: absolute;
+  right: 0%;
+  height: 60vh;
+  margin-top: -160px;
+}
+
+#cols {
+  display: flex;
+  padding: 3rem 5rem 5rem;
+  justify-content: center;
 }
 
 .col {
-    display: flex;
-    flex-direction: column;
-    margin: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
 }
 
-.col p, a {
-    font-size: 2rem;
-    text-align: center;
-    line-height: 0;
+.col p,
+a {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 0;
+  margin: 2rem 0;
 }
 
 .col a {
-    margin: 0 1rem;
-    text-decoration: underline;
+  margin: 0 1rem;
+  text-decoration: underline;
 }
 
 #mail {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #icon-box {
@@ -34,6 +63,11 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+#mail,
+#icon-box {
+  margin-top: 1.25rem;
 }
 
 .icon {
@@ -54,8 +88,8 @@
   align-items: center;
 }
 
-.footer-links a {
-  margin: 0.5rem;
+a {
+  color: var(--black);
 }
 
 #moon {

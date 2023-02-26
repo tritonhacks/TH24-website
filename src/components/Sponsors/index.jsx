@@ -1,11 +1,20 @@
 import "./style.css";
-// import acm from "../../assets/acm.png";
+import smoke from "../../assets/smoke-bottom.svg";
+import alien from "../../assets/alien.svg";
+import beam from "../../assets/beam.svg";
+import cseucsd from "../../assets/cseucsd.png";
 
 const Sponsors = () => {
   return (
     <section id="sponsors-wrapper">
+      <img src={smoke} alt="smoke trail" id="smoke-bottom" />
+
+      <div id="spaceship">
+        <img src={alien} alt="alien" id="alien" />
+        <img src={beam} alt="beam" id="beam" />
+      </div>
       <h1 id="sponsors">Sponsors</h1>
-     <p id="sponsor-us">
+      <p id="sponsor-us">
         Interested in sponsoring us? Email us at&nbsp;
         <span>
           <a id="email" href="mailto:tritonhacks@gmail.com">
@@ -13,19 +22,13 @@ const Sponsors = () => {
           </a>
         </span>
         .
-      </p> 
+      </p>
       <div id="sponsor-images">
-        {/* <a href="https://www.deckard.com/">
-          <img src={deckard} alt="Deckard Technologies"></img>
-        </a> */}
+        <a href="https://cse.ucsd.edu/" target="_blank" rel="noreferrer">
+          <img src={cseucsd} alt="UCSD CSE"></img>
+        </a>
       </div>
-      
-      <h1 id="partners">Partners</h1>
-      <div id="partner-images">
-        {/* <a href="https://acmucsd.com/">
-          <img src={acm} alt="Association for Computing Machinery"></img>
-        </a> */}
-      </div>
+
     </section>
   );
 };

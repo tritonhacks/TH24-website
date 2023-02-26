@@ -1,24 +1,55 @@
 #sponsors-wrapper {
-    margin: 20px 120px;
     color: var(--white);
 }
 
-#sponsors,
-#partners {
+#smoke-bottom {
+    z-index: 0;
+    position: relative;
+    width: 100vw;
+}
+
+#spaceship {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#alien {
+    position: relative;
+    height: 60vh;
+    z-index: 10;
+}
+
+#beam {
+    position: relative;
+    width: 90vw;
+    margin-top: -108px;
+    margin-bottom: -92vh;
+}
+
+#sponsors {
     font-size: 7rem;
     line-height: 2rem;
     text-transform: uppercase;
     text-align: center;
+    margin-left: 0;
+    margin-bottom: 5rem;
+    padding-top: 2rem;
 }
 
 #sponsor-us {
     font-size: 2.5rem;
     text-align: center;
+    margin: 0;
 }
 
 #email {
+    font-size: 2.5rem;
     font-weight: bold;
     text-decoration: underline;
+    color: var(--white);
+    font-family: 'Cute Font', cursive;
 }
 
 #partner-images,

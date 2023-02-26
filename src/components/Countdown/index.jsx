@@ -1,6 +1,6 @@
 import "./style.css";
 import { useState, useEffect } from "react";
-import smoketop from "../../assets/smoke-top.svg";
+import smoke from "../../assets/smoke-top.svg";
 import rocket from "../../assets/rocket.svg";
 
 
@@ -13,7 +13,7 @@ const Countdown = () => {
   useEffect(() => {
     // update countdown every second
     const countdownTimer = setInterval(() => {
-      const hackathonStart = new Date("May 21, 2023 9:00:00").getTime();
+      const hackathonStart = new Date("May 20, 2023 9:00:00").getTime();
       const now = new Date().getTime();
 
       // find the time between now and the count down date
@@ -79,7 +79,7 @@ const Countdown = () => {
         </div>
         <p class="countdown" id="until">until hacking starts!</p>
       </div>
-      <img src={smoketop} alt="smoke trail" id="smoke" />
+      <img src={smoke} alt="smoke trail" id="smoke" />
 
     </section>
   );

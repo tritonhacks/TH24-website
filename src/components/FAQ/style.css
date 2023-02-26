@@ -1,0 +1,54 @@
+#faq {
+    margin: 10em 0 30em;
+}
+
+#faq-title {
+    color: var(--white);
+    font-size: 9rem;
+    margin-right: 50vw;
+    text-align: center;
+    line-height: 8rem;
+}
+
+#satellite1 {
+    position: absolute;
+    right: 5%;
+    margin-top: -50vh;
+}
+
+#satellite2 {
+    position: absolute;
+    left: 0%;
+    margin-top: 85vh;
+}
+
+#find-team {
+    margin-left: 20em;
+}
+
+#questions {
+    margin: 0 6rem;
+}
+
+.question {
+    display: flex;
+    color: var(--white);
+    align-items: center;
+    font-size: 5rem;
+}
+
+.question p {
+    margin: 1rem 2rem;
+}
+
+.answer,
+.answer b {
+    color: var(--white);
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.answer {
+    margin: 0 5rem 0 10rem;
+}

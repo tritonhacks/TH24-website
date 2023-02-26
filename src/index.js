@@ -8,8 +8,6 @@ import {
 } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
-import Sponsors from "./components/Sponsors";
-
 
 const router = createBrowserRouter([
   {
@@ -17,8 +15,7 @@ const router = createBrowserRouter([
     element: <Navbar />,
   },
   {
-    path: "/sponsors",
-    element: <Sponsors />,
+    path: "/apply",
   },
 ]);
 

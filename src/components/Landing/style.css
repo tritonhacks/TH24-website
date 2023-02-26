@@ -1,17 +1,7 @@
 #landing-wrapper {
-  margin: 0 0 8rem 0;
   padding: 0;
+  margin-bottom: 5rem;
   min-height: max(700px, 100vh);
-}
-
-#landing-fg,
-#landing-mg,
-#landing-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
 
 /* Foreground = text, buttons, non-animated elements */
@@ -21,7 +11,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 8rem;
+  padding: 15rem 0;
 }
 
 #landing-title {
@@ -61,10 +51,11 @@
   border-radius: 1rem;
   cursor: pointer;
   background: var(--purple);
+  font-family: 'Cute Font', cursive;
 }
 
 .landing-btn:hover {
-  background: var(--white);
+  background: var(--light-blue);
   transform: scale(1.02);
 }
 
@@ -74,13 +65,13 @@
 }
 
 #saturn {
-  top: 52%;
+  top: 50%;
   left: -8%;
-  height: 55vh;
+  width: 50vw;
 }
 
 #astronaut {
-  top: 45%;
+  top: 48%;
   right: 0%;
-  height: 70vh;
+  width: 30vw;
 }
