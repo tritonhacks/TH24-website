@@ -14,15 +14,15 @@ h1 {
 }
 
 #terrain {
-  width: 100%;
+  width: 100vw;
   margin-bottom: -250px;
 }
 
 #rover {
   position: absolute;
-  right: 0%;
-  height: 60vh;
-  margin-top: -160px;
+  right: 0;
+  height: 30vw;
+  margin-top: -18vw;
 }
 
 #cols {
@@ -90,8 +90,4 @@ a {
 
 a {
   color: var(--black);
-}
-
-#moon {
-  width: 100vw;
 }

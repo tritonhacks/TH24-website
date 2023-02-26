@@ -17,15 +17,15 @@
 
 #alien {
     position: relative;
-    height: 60vh;
+    height: 25vw;
     z-index: 10;
 }
 
 #beam {
     position: relative;
     width: 90vw;
-    margin-top: -108px;
-    margin-bottom: -92vh;
+    margin-top: -8vw;
+    margin-bottom: -40vw;
 }
 
 #sponsors {

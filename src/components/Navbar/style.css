@@ -1,22 +1,18 @@
 .navbar-container {
     align-items: center;
     display: flex;
-    flex-flow: row wrap;
-    height: fit-content;
-    box-sizing: border-box;
     width: 100%;
     position: absolute;
     top: 0;
     margin-top: 1rem;
+    row-gap: 2em;
 }
 
 .navbar-links {
-    margin-top: 1rem;
-}
-
-.nav-menu {
-    margin-left: auto;
-
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 3.5rem;
+    justify-content: center;
 }
 
 .hamburger {
@@ -37,33 +33,6 @@
     background-color: var(--purple);
 }
 
-@media (max-width: 900px) {
-    .navbar-container {
-        flex-flow: column nowrap;
-        justify-content: center;
-    }
-
-    .navbar-links {
-        font-size: 0.75em;
-        margin-top: 1rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
-
-    .nav-menu {
-        display: block;
-    }
-
-    .nav-menu a {
-        width: 100%;
-        margin: 20px;
-    }
-}
-
 .navbar-title,
 .navbar-links a {
     margin: 0 2rem;
@@ -82,13 +51,11 @@
 .navbar-title img {
     height: 4.5rem;
     width: 4.5rem;
-    margin: 1rem 0 1rem 1rem;
+    margin: 1rem 0;
 }
 
 .underline {
     text-transform: uppercase;
-    width: fit-content;
-    position: relative;
     color: var(--white);
     font-family: 'Lato', sans-serif;
     letter-spacing: .1em;
@@ -112,4 +79,45 @@
 .underline:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+@media (max-width: 1150px) {
+    .underline {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .navbar-container {
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    .underline {
+        font-size: 1.5rem;
+    }
+
+    .navbar-title img {
+        height: 4rem;
+        width: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .underline {
+        font-size: 1rem;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+    }
+
 }
