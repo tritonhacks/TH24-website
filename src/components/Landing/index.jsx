@@ -13,7 +13,7 @@ const Landing = () => {
             <div id="content">
                 <img src={logo} alt="CSforeach logo" id="logo" />
                 <h1 id="title">TritonHacks 2023 is coming soon!</h1>
-                <p id="dates">Dates: May 21-22</p>
+                <p id="dates">Dates: May 20-21</p>
             </div>
             <img src={accent} alt="accent" id="accent" />
             <a href="https://tally.so/r/3EqeJB" target="_blank" rel="noreferrer" id="signup">Sign up!</a>
