@@ -21,8 +21,8 @@
 #rover {
   position: absolute;
   right: 0%;
-  height: 60vh;
-  margin-top: -30vh;
+  height: 35vw;
+  margin-top: -15vw;
 }
 
 #cols {
@@ -95,4 +95,17 @@ a {
 
 #moon {
   width: 100vw;
+}
+
+@media (max-width: 1250px) {
+  #contact {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  #contact {
+    font-size: 6rem;
+    padding-top: 2vh;
+  }
 }
