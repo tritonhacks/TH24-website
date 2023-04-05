@@ -1,5 +1,5 @@
 import "./style.css";
-// import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "../../assets/logo.svg";
 
 const links = [
@@ -21,12 +21,30 @@ const links = [
   },
 ];
 
-
 const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 20) {
+      setScrolled(true);
+    }
+    else {
+      setScrolled(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+  })
+  let navbarClasses = ['navbar-container'];
+  if (scrolled) {
+    navbarClasses.push('scrolled');
+  }
+
   // const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
-    <div class="navbar-container">
+    <div class={navbarClasses.join(" ")}>
       <a href="/" class="navbar-title">
         <img src={Logo} alt="" />
       </a>
@@ -50,15 +68,14 @@ const Navbar = () => {
             />
           </svg>
         </button> */}
-        {/* <ul> */}
-        {links.map((link, key) => (
-          // <li>
-          <a class="underline" href={`#${link.id}`} key={`nav${key}`}>
-            {link.displayText}
-          </a>
-          // </li>
-        ))}
-        {/* </ul> */}
+        <div className="nav-menu">
+          {links.map((link, key) => (
+            <a class="underline" href={`#${link.id}`} key={`nav${key}`}>
+              {link.displayText}
+            </a>
+          ))}
+
+        </div>
       </div>
 
     </div>

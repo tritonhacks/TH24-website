@@ -13,7 +13,7 @@ const Contact = () => {
             <img id="terrain" src={terrain} alt="terrain" />
             <img id="rover" src={rover} alt="rover" />
             <div id="content">
-                <h1>Let's Make Contact!</h1>
+                <h1 id="contact">Let's Make Contact!</h1>
 
                 <div id="cols">
                     <div class="col">
