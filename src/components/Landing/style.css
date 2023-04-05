@@ -25,13 +25,7 @@
 #date {
   margin: 0;
   color: var(--white);
-  font-size: 4rem; 
-}
-
-@media (max-width: 768px) {
-  #landing-title {
-    font-size: 2rem;
-  }
+  font-size: 80px; 
 }
 
 #landing-btn-wrapper {
@@ -44,7 +38,7 @@
   font-size: 2.3em;
   padding: 2.5rem 3rem;
   margin: 1.5rem;
-  min-width: 10rem;
+  min-width: 10vw;
   font-size: 5rem;
   line-height: 2rem;
   color: var(--white);
@@ -74,4 +68,25 @@
   top: 48%;
   right: 0%;
   width: 30vw;
+}
+
+@media (max-width: 1108px) {
+  #landing-title {
+    font-size: 10em;
+  }
+  #saturn {
+  top: 65%;
+  left: -12%;
+}
+
+#astronaut {
+  top: 64%;
+  right: -5%;
+}
+}
+
+@media (max-width: 768px) {
+  #landing-title {
+    font-size: 2rem;
+  }
 }

@@ -7,9 +7,9 @@
   background-color: var(--white);
 }
 
-h1 {
+#contact {
   font-size: 8rem;
-  margin-left: 8rem;
+  margin-left: 8vh;
   margin-bottom: 0;
 }
 
@@ -22,12 +22,12 @@ h1 {
   position: absolute;
   right: 0%;
   height: 60vh;
-  margin-top: -160px;
+  margin-top: -30vh;
 }
 
 #cols {
   display: flex;
-  padding: 3rem 5rem 5rem;
+  padding: 5vh 8vh 5vh;
   justify-content: center;
 }
 
@@ -42,8 +42,9 @@ a {
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 1.5rem;
   text-align: center;
-  line-height: 0;
+  line-height: 5vh;
   margin: 2rem 0;
+  overflow-wrap: normal;
 }
 
 .col a {

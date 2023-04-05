@@ -1,5 +1,6 @@
 #sponsors-wrapper {
     color: var(--white);
+    z-index: 0;
 }
 
 #smoke-bottom {

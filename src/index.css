@@ -18,6 +18,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  scroll-padding-top: 104px;
   scroll-behavior: smooth;
   overflow-x: hidden;
   background: #0A0034;
