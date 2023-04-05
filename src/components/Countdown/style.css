@@ -2,8 +2,6 @@
   text-align: center;
   color: var(--white);
   position: relative;
-  left: 0px;
-  top: 0px;
 }
 
 .countdown {
@@ -48,7 +46,7 @@
   z-index: 1;
   position: absolute;
   left: 57.5vw;
-  height: 85vh;
+  height: 40vw;
 }
 
 #rocket:hover {

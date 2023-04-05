@@ -13,13 +13,14 @@
 #satellite1 {
     position: absolute;
     right: 5%;
-    margin-top: -50vh;
+    margin-top: -30vw;
+    width: 40vw;
 }
 
 #satellite2 {
     position: absolute;
     left: 0%;
-    margin-top: 85vh;
+    margin-top: 45vw;
 }
 
 #find-team {

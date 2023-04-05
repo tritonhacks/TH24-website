@@ -1,6 +1,6 @@
 #landing-wrapper {
   padding: 0;
-  margin-bottom: 5rem;
+  margin-bottom: 10vw;
   min-height: max(700px, 100vh);
 }
 
@@ -34,7 +34,6 @@
 }
 
 .landing-btn {
-  font-size: 2.3em;
   padding: 2.5rem 3rem;
   margin: 1.5rem;
   /* min-width: 10vw; */
@@ -58,14 +57,14 @@
 }
 
 #saturn {
-  top: 50%;
-  left: -8%;
+  top: 22vw;
+  left: -10vw;
   width: 50vw;
 }
 
 #astronaut {
-  top: 48%;
-  right: 0%;
+  top: 26vw;
+  right: 0vw;
   width: 30vw;
 }
 
