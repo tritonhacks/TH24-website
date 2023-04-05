@@ -17,7 +17,7 @@
     top: 0;
     left: 0;
     /* padding: 0; */
-    background-color:#0A0034;
+    background-color: #0A0034;
     /* background: linear-gradient(180deg, #0A0034 0%, #28276B 100%); */
 }
 
@@ -106,14 +106,15 @@
         justify-content: center;
     }
 
-    .navbar-links {
-        font-size: 0.75em;
+    .underline {
+        font-size: 1.5rem;
         margin-top: 1rem;
     }
 
     .nav-menu {
         display: flex;
         flex-wrap: wrap;
+        row-gap: 2rem;
     }
 }
 
@@ -121,10 +122,4 @@
     .hamburger {
         display: block;
     }
-
-    .nav-menu {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
 }

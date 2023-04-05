@@ -87,7 +87,7 @@
 
 @media (max-width: 780px) {
   #landing-title {
-    margin-top: 4rem;
+    margin-top: 10vh;
     font-size: 6rem;
   }
 
@@ -98,5 +98,15 @@
   .landing-btn {
     font-size: 3rem;
     padding: 1.5rem 2rem;
+  }
+
+  #saturn {
+    top: 75%;
+    left: -12%;
+  }
+
+  #astronaut {
+    top: 70%;
+    right: -5%;
   }
 }
