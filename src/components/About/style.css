@@ -33,9 +33,9 @@
 
 #learn-more {
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 3rem;
-    text-align: center;
     font-family: "Cute Font", cursive;
 }
 
