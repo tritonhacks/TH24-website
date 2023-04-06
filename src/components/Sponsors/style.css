@@ -1,6 +1,7 @@
 #sponsors-wrapper {
     color: var(--white);
     z-index: 0;
+    margin-bottom: 50vh;
 }
 
 #smoke-bottom {
@@ -78,4 +79,49 @@
 
 .white-logo {
     filter: invert(1);
+}
+
+@media (max-width: 1180px) {
+    #sponsors-wrapper {
+        margin-bottom: 0;
+    }
+
+    #sponsor-images {
+        margin-top: 20vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    #sponsor-images {
+        margin-top: 10vh;
+    }
+}
+
+@media (max-width: 820px) {
+    #sponsors {
+        font-size: 6rem;
+        padding-top: 0;
+    }
+
+    #sponsor-us,
+    #email {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #sponsors {
+        font-size: 4rem;
+    }
+
+    #sponsor-us,
+    #email {
+        margin-top: 15vh;
+        font-size: 1.5rem;
+    }
+
+    #sponsor-images img,
+    #partner-images img {
+        max-width: 10rem;
+    }
 }

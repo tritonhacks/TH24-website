@@ -14,7 +14,7 @@ const FAQ = () => {
             <img src={satellite2} alt="satellite" id="satellite2" />
             <div id="questions">
                 <div className="question">
-                    <img src={asteroid1} alt="asteroid" id="asteroid1" />
+                    <img src={asteroid1} alt="asteroid" class="asteroid" />
                     <p>What is a hackathon?</p>
                 </div>
                 <p className="answer">
@@ -23,7 +23,7 @@ const FAQ = () => {
                     programming come together to create a project in a sprint-like event!
                 </p>
                 <div className="question">
-                    <img src={asteroid2} alt="asteroid" id="asteroid2" />
+                    <img src={asteroid2} alt="asteroid" class="asteroid" />
                     <p>What if I don’t know anything about coding?</p>
                 </div>
                 <p className="answer">
@@ -32,7 +32,7 @@ const FAQ = () => {
                     much experience you have had!
                 </p>
                 <div className="question">
-                    <img src={asteroid3} alt="asteroid" id="asteroid3" />
+                    <img src={asteroid3} alt="asteroid" class="asteroid" />
                     <p>Do I work individually or with a team?</p>
                 </div>
                 <p className="answer">
@@ -42,7 +42,7 @@ const FAQ = () => {
                 </p>
                 <div id="find-team">
                     <div className="question">
-                        <img src={asteroid4} alt="asteroid" id="asteroid4" />
+                        <img src={asteroid4} alt="asteroid" class="asteroid" />
                         <p>How do I find a team?</p>
                     </div>
                     <p className="answer">

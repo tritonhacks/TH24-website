@@ -38,7 +38,7 @@
 }
 
 .col p,
-a {
+.col a {
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 1.5rem;
   text-align: center;
@@ -93,9 +93,12 @@ a {
   color: var(--black);
 }
 
-#moon {
-  width: 100vw;
+@media (min-width: 1500px) {
+  #rover {
+    margin-top: -40vh;
+  }
 }
+
 
 @media (max-width: 1250px) {
   #contact {
@@ -107,5 +110,71 @@ a {
   #contact {
     font-size: 6rem;
     padding-top: 2vh;
+  }
+}
+
+@media (max-width: 820px) {
+  #terrain {
+    width: 150vw;
+  }
+
+  #rover {
+    margin-top: -12vh;
+  }
+
+  #contact {
+    margin: 15vh 0 0 0;
+    text-align: center;
+  }
+
+  #cols {
+    padding: 0 0 5vh;
+  }
+
+  .col p,
+  .col a {
+    line-height: 1rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #terrain {
+    width: 250vw;
+  }
+
+  #rover {
+    margin-top: -4vh;
+    height: 20vh;
+  }
+
+  #contact {
+    font-size: 3.5rem;
+  }
+
+  #cols {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .col p,
+  .col a {
+    line-height: 2rem;
+    font-size: 16px;
+    margin: .5rem 0;
+  }
+
+  #mail,
+  #icon-box {
+    margin-top: .25rem;
+  }
+
+  #mail {
+    margin-bottom: 1rem;
+  }
+
+  .footer-icon {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
