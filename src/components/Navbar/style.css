@@ -12,7 +12,7 @@
 .scrolled {
     position: fixed;
     background-color: #0A0034;
-    min-height: 20vh;
+    min-height: 18vh;
 }
 
 .navbar-links {
@@ -100,13 +100,36 @@
 }
 
 @media (max-width: 820px) {
+    .scrolled .navbar-title img {
+        display: none;
+    }
+
     .scrolled {
-        padding: 4rem 0 0;
+        padding: 5rem 0 0;
+        margin-bottom: -1rem;
+        min-height: 10vh;
     }
 }
 
 @media (max-width: 480px) {
     .scrolled {
-        padding: 2rem 0 2rem;
+        padding: 1rem 0;
+        min-height: 3vh;
+    }
+
+    .underline {
+        font-size: 16px;
+    }
+
+    .navbar-title,
+    .navbar-links a {
+        margin: 0 .75rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .scrolled {
+        padding: 1rem 0;
+        min-height: 4vh;
     }
 }
