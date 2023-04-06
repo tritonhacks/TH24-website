@@ -174,3 +174,9 @@
     top: 50vh;
   }
 }
+
+@media (max-width: 375px) {
+    #rocket {
+        top: 60vh;
+    }
+}

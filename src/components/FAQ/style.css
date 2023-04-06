@@ -154,3 +154,15 @@
         margin-top: 150vh;
     }
 }
+
+@media (max-width: 390px) {
+    #satellite2 {
+        margin-top: 170vh;
+    }
+}
+
+@media (max-width: 375px) {
+    #satellite2 {
+        margin-top: 230vh;
+    }
+}

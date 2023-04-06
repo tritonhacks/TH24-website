@@ -73,3 +73,10 @@
         width: 20px;
     }
 }
+
+@media (max-width: 375px) {
+    #learn-more,
+    #learn-more a {
+        font-size: 1.5rem;
+    }
+}

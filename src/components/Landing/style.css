@@ -155,3 +155,9 @@
     top: 30vh;
   }
 }
+
+@media (max-width: 375px) {
+    #saturn {
+        top: 85vh;
+    }
+}
