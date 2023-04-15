@@ -149,15 +149,15 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 425px) {
     #satellite2 {
-        margin-top: 150vh;
+        margin-top: 180vh;
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 405px) {
     #satellite2 {
-        margin-top: 170vh;
+        margin-top: 190vh;
     }
 }
 

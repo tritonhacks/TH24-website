@@ -18,15 +18,16 @@ html,
 body {
   margin: 0;
   padding: 0;
-  scroll-padding-top: 104px;
+  scroll-padding-top: 18vh;
   scroll-behavior: smooth;
   overflow-x: hidden;
   background: #0A0034;
 }
 
 * {
-  font-family: "Cute Font", cursive;
+  font-family: Arial, sans-serif;
   transition: 0.3s;
+  font-family: "Cute Font";
 }
 
 a {
