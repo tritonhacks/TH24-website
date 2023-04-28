@@ -1,7 +1,7 @@
 .navbar-container {
     align-items: center;
     display: flex;
-    width: 100%;
+    width: 100vw;
     min-height: 15%;
     position: fixed;
     top: 0;
@@ -117,7 +117,7 @@
     }
 
     .underline {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .navbar-title,
@@ -127,7 +127,7 @@
 }
 
 @media (max-width: 375px) {
-    .scrolled {
+    .navbar-container {
         min-height: 13vh;
         padding: 1rem;
         padding-top: 2rem;

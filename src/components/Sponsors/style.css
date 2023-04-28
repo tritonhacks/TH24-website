@@ -123,4 +123,8 @@
     #partner-images img {
         max-width: 10rem;
     }
+
+    #smoke-bottom {
+        margin-top: 10px;
+    }
 }
