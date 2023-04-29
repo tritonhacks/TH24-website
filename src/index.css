@@ -51,3 +51,9 @@ a {
 .section2 {
   background: linear-gradient(179.48deg, rgba(87, 123, 251, 0.64) 15.8%, rgba(35, 26, 94, 0.71) 45.5%, rgba(25, 7, 63, 0.65) 69.72%, rgba(88, 125, 255, 0.71) 83.51%);
 }
+
+@media (max-width: 1180px) {
+  .stars {
+    background-size: contain;
+  }
+}
