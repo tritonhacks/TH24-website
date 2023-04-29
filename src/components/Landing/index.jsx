@@ -1,37 +1,27 @@
 import "./style.css";
-import accent from "../../assets/black_accent.svg";
-import logo from "../../assets/logo.svg";
-// import discord from "../../assets/discord.svg";
-import mail from "../../assets/mail.svg";
-import instagram from "../../assets/instagram.svg";
-import linkedin from "../../assets/linkedin.svg";
-
+import saturn from "../../assets/saturn.png";
+import astronaut from "../../assets/astronaut.svg";
 
 const Landing = () => {
     return (
         <section id="landing-wrapper">
-            <div id="content">
-                <img src={logo} alt="CSforeach logo" id="logo" />
-                <h1 id="title">TritonHacks 2023 is coming soon!</h1>
-                <p id="dates">Dates: May 20-21</p>
+            {/* Foreground - text, buttons, etc */}
+            <div id="landing-fg">
+                <h1 id="landing-title">TritonHacks</h1>
+                <p id="date">May 20th - May 21st</p>
+                <div id="landing-btn-wrapper">
+                    <a href="https://tally.so/r/3EqeJB" target="_blank" rel="noreferrer" class="landing-btn">APPLY NOW</a>
+                </div>
             </div>
-            <img src={accent} alt="accent" id="accent" />
-            <a href="https://tally.so/r/3EqeJB" target="_blank" rel="noreferrer" id="signup">Sign up!</a>
-            <div id="socials">
-                {/* <a target="_blank" href="/" rel="noreferrer">
-                    <img src={discord} alt="Discord" id="discord" />
-                </a> */}
-                <a target="_blank" href="https://www.instagram.com/ucsdtritonhacks/" rel="noreferrer">
-                    <img src={instagram} alt="Instagram" id="instagram" />
-                </a>
-                <a target="_blank" href="https://www.linkedin.com/company/csforeach/" rel="noreferrer">
-                    <img src={linkedin} alt="LinkedIn" id="linkedin" />
-                </a>
-                <a target="_blank" href="mailto:tritonhacks@gmail.com" rel="noreferrer">
-                    <img src={mail} alt="Mail" id="mail" />
-                </a>
+
+            {/* Midground - static images */}
+            <div id="landing-mg">
+                <img src={saturn} alt="saturn" id="saturn" />
+                <img src={astronaut} alt="astronaut" id="astronaut" />
             </div>
-            <p id="footer">© 2022 by csforeach</p>
+
+            <div id="landing-bg">
+            </div>
         </section>
     );
 };

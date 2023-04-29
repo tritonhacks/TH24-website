@@ -1,0 +1,160 @@
+#faq {
+    margin: 10vw 0 30vw;
+}
+
+#faq-title {
+    color: var(--white);
+    font-size: 9rem;
+    margin-right: 50vw;
+    text-align: center;
+    line-height: 8rem;
+}
+
+#satellite1 {
+    position: absolute;
+    right: 5%;
+    margin-top: -30vw;
+    width: 40vw;
+}
+
+#satellite2 {
+    position: absolute;
+    left: 0%;
+    margin-top: 85vh;
+}
+
+#find-team {
+    margin-left: 20em;
+}
+
+#questions {
+    margin: 0 6rem;
+}
+
+.question {
+    display: flex;
+    color: var(--white);
+    align-items: center;
+    font-size: 5rem;
+}
+
+.question p {
+    margin: 1rem 2rem;
+}
+
+.answer,
+.answer b {
+    color: var(--white);
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.answer {
+    margin: 0 5rem 0 10rem;
+}
+
+@media (min-width: 1600px) {
+    #satellite2 {
+        margin-top: 55vh;
+    }
+}
+
+@media (max-width: 1180px) {
+    #satellite2 {
+        margin-top: 105vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    #satellite2 {
+        margin-top: 125vh;
+    }
+}
+
+@media (max-width: 820px) {
+    #faq-title {
+        font-size: 6rem;
+        padding-left: 5vw;
+        margin-right: 40vw;
+    }
+
+    #questions {
+        margin: 0 3rem;
+    }
+
+    #satellite1 {
+        right: 3vw;
+    }
+
+    .question {
+        font-size: 4rem;
+        line-height: 3rem;
+    }
+
+    .answer,
+    .answer b {
+        font-size: 1.5rem;
+        padding-bottom: 5vw;
+    }
+
+    #satellite2 {
+        width: 40vw;
+        left: -5%;
+        margin-top: 85vh;
+    }
+
+    #find-team {
+        margin-left: 10em;
+    }
+}
+
+@media (max-width: 480px) {
+    #faq-title {
+        font-size: 5rem;
+        line-height: 4rem;
+    }
+
+    #questions {
+        margin: 0 1rem;
+    }
+
+    #satellite1 {
+        right: 0;
+    }
+
+    .asteroid {
+        max-width: 5rem;
+    }
+
+    .question {
+        font-size: 3rem;
+    }
+
+    .answer {
+        font-size: 16px;
+        margin: 0 2rem;
+    }
+
+    .answer b {
+        font-size: 16px;
+    }
+
+    #satellite2 {
+        margin-top: 170vh;
+    }
+
+    #find-team {
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    #satellite2 {
+       display: none;
+    }
+
+     #faq {
+        margin-bottom: 5vw;
+     }
+}
