@@ -120,7 +120,7 @@
     }
 
     #satellite1 {
-        right: -5vw;
+        right: 0;
     }
 
     .asteroid {
@@ -158,6 +158,12 @@
 @media (max-width: 405px) {
     #satellite2 {
         margin-top: 190vh;
+    }
+}
+
+@media (max-width: 390px) {
+    #satellite2 {
+        margin-top: 170vh;
     }
 }
 

@@ -89,11 +89,21 @@
     #sponsor-images {
         margin-top: 20vh;
     }
+
+    #sponsor-images img,
+    #partner-images img {
+        max-width: 12rem;
+    }
 }
 
 @media (max-width: 1024px) {
     #sponsor-images {
         margin-top: 10vh;
+    }
+
+    #sponsor-images img,
+    #partner-images img {
+        max-width: 10rem;
     }
 }
 
@@ -106,6 +116,15 @@
     #sponsor-us,
     #email {
         font-size: 2rem;
+    }
+
+    #sponsor-images {
+        margin: 5rem 2rem 0;
+    }
+
+    #sponsor-images img,
+    #partner-images img {
+        max-width: 8rem;
     }
 }
 
@@ -120,12 +139,17 @@
         font-size: 1.5rem;
     }
 
+    #sponsor-images {
+        margin: 0 1rem;
+    }
+
     #sponsor-images img,
     #partner-images img {
-        max-width: 10rem;
+        max-width: 6rem;
     }
 
     #smoke-bottom {
         margin-top: 10px;
     }
+
 }
