@@ -178,3 +178,8 @@ a {
     height: 2.5rem;
   }
 }
+
+@media (max-width: 425px) {
+  #footer {
+    margin-top: 5vw;
+  }}

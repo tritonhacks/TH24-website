@@ -151,24 +151,10 @@
 
 @media (max-width: 425px) {
     #satellite2 {
-        margin-top: 220vh;
+       display: none;
     }
-}
 
-@media (max-width: 410px) {
-    #satellite2 {
-        margin-top: 230vh;
-    }
-}
-
-@media (max-width: 405px) {
-    #satellite2 {
-        margin-top: 240vh;
-    }
-}
-
-@media (max-width: 375px) {
-    #satellite2 {
-        margin-top: 260vh;
-    }
+     #faq {
+        margin-bottom: 5vw;
+     }
 }
