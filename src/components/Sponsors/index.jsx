@@ -3,15 +3,15 @@ import smoke from "../../assets/smoke-bottom.svg";
 import alien from "../../assets/alien.svg";
 import beam from "../../assets/beam.svg";
 import cseucsd from "../../assets/logos/cseucsd.png";
-import codeorg from "../../assets/logos/codeorg.svg";
-import create from "../../assets/logos/create.svg";
+import codeorg from "../../assets/logos/codeorg.png";
+import create from "../../assets/logos/create.png";
 import csfe from "../../assets/logos/csfe-logo.svg";
-import cstasd from "../../assets/logos/csta.svg";
-import familia from "../../assets/logos/familia.svg";
+import cstasd from "../../assets/logos/csta.png";
+import familia from "../../assets/logos/familia.png";
 import googlecloud from "../../assets/logos/google-cloud.png";
-import netapp from "../../assets/logos/netapp.svg";
-import trace3 from "../../assets/logos/trace3.svg";
-import ucsdidea from "../../assets/logos/ucsd-idea.svg";
+import netapp from "../../assets/logos/netapp.png";
+import trace3 from "../../assets/logos/trace3.png";
+import ucsdidea from "../../assets/logos/ucsd-idea.png";
 
 
 const Sponsors = () => {
