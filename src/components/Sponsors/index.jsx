@@ -12,20 +12,6 @@ const Sponsors = () => {
     <section id="sponsors-wrapper">
       <img src={waterbottle} alt="waterbottle" id="bottle"></img>
 
-      <div id="sponsorText">
-        <h1 id="sponsors">Sponsors</h1>
-
-        <p id="sponsor-us">
-          Interested in sponsoring us? Email us at&nbsp;
-          <span>
-            <a id="email" href="mailto:tritonhacks@gmail.com">
-              tritonhacks@gmail.com
-            </a>
-          </span>
-          .
-        </p>
-      </div>
-
       <div id="sponsor-images">
         <a href="https://csforeach.ucsd.edu/" target="_blank" rel="noreferrer">
           <img src={csfe} alt="CSforeach"></img>
@@ -45,6 +31,20 @@ const Sponsors = () => {
         <a href="https://create.ucsd.edu/" target="_blank" rel="noreferrer">
           <img src={create} alt="UCSD Create"></img>
         </a>
+      </div>
+
+       <div class="rightText">
+        <h1 id="sponsors">Sponsors</h1>
+
+        <p id="sponsor-us">
+          Interested in sponsoring us? Email us at&nbsp;
+          <span>
+            <a id="email" href="mailto:tritonhacks@gmail.com">
+              tritonhacks@gmail.com
+            </a>
+          </span>
+          .
+        </p>
       </div>
 
     </section>

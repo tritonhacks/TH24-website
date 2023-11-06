@@ -1,8 +1,7 @@
 #sponsors-wrapper {
     color: var(--white);
     margin-top: -5px;
-    z-index: 0;
-    margin-bottom: 50vh;
+    margin-bottom: 120vh;
 }
 
 #bottle {
@@ -12,12 +11,13 @@
     z-index: 0;
 }
 
-#sponsorText {
+.rightText {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 55%;
     padding-left: 35%;
+    margin-top: -50rem;
 }
 
 #sponsors {
@@ -54,6 +54,7 @@
     align-items: center;
     text-align: center;
     margin: 0 8rem;
+    padding: 20rem 0 0 0;
 }
 
 #sponsor-images img {
