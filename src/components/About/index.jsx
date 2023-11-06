@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section id="about-wrapper">
             <div id="about-content">
-                <h1 id="about">Get ready to blast off!</h1>
+                <h1 id="about"></h1>
                 <div>
                     <p id="about-paragraph">
                         TritonHacks is a two-day high school level hackathon aimed at 

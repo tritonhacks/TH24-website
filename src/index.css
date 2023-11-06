@@ -1,17 +1,13 @@
 /* import fonts */
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Cute+Font&family=Lato:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dokdo&display=swap');
 
 /* colors */
 :root {
-  --space-purple: #0F0237;
-  --purple: #B380C8;
-  --blue: #587DFF;
+  --forest-green: #ABC0B9;
+  --dark-green: #2D5855;
   --white: #FFFFFF;
   --gray: #020202;
   --black: #0F0237;
-  --gold: #FBCC26;
-  --light-blue: #A5BDFD;
-
 }
 
 html,
@@ -27,7 +23,7 @@ body {
 
 * {
   font-family: Arial, sans-serif;
-  font-family: "Cute Font";
+  font-family: "Dokdo";
 }
 
 a {
@@ -35,22 +31,17 @@ a {
   color: white;
 }
 
-/* stars */
-.stars {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png);
-  /* simple parallax */
+.app-container {
+  background-color: var(--forest-green) ;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 
-.section1 {
-  background: linear-gradient(180deg, rgba(67, 13, 75, 0.06) 0%, #7190FF 100%);
+.section2 {
+  margin-top: -10px;
 }
 
-.section2 {
-  background: linear-gradient(179.48deg, rgba(87, 123, 251, 0.64) 15.8%, rgba(35, 26, 94, 0.71) 45.5%, rgba(25, 7, 63, 0.65) 69.72%, rgba(88, 125, 255, 0.71) 83.51%);
-}
 
 @media (max-width: 1180px) {
   .stars {

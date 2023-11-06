@@ -2,6 +2,8 @@
   padding: 0;
   margin-bottom: 10vw;
   min-height: max(700px, 100vh);
+  background: linear-gradient(348deg, #FFEABB 55.95%, rgba(16, 113, 81, 0.01) 133.72%);
+  /* simple parallax */
 }
 
 /* Foreground = text, buttons, non-animated elements */
@@ -15,79 +17,66 @@
 }
 
 #landing-title {
-  margin: 0 0 .25em 0;
-  color: var(--white);
-  font-size: 12rem;
-  line-height: 2rem;
-  letter-spacing: 0.25rem;
-}
-
-#date {
   margin: 0;
   color: var(--white);
-  font-size: 4rem;
+  font-size: 10rem;
+  line-height: 2rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
 }
 
 #landing-btn-wrapper {
-  display: flex;
-  justify-content: center;
+  position: absolute;
+  top: 163rem;
+  left: 55rem;
 }
 
 .landing-btn {
-  padding: 2.5rem 3rem;
+  padding: 2.5rem 7rem;
   margin: 1.5rem;
   font-size: 5rem;
   line-height: 2rem;
   color: var(--white);
-  border-radius: 1rem;
+  border-radius: 3rem;
   cursor: pointer;
-  background: var(--purple);
-  font-family: 'Cute Font', cursive;
+  text-transform: uppercase;
 }
 
 .landing-btn:hover {
-  background: var(--light-blue);
-  transform: scale(1.02);
+  font-size: 5.2rem;
 }
 
-#saturn,
-#astronaut {
+#countdown-text {
   position: absolute;
+  top: 91.5rem;
+  left: 8rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
 }
 
-#saturn {
-  top: 22vw;
-  left: -10vw;
-  width: 50vw;
+.timer-element {
+  display: flex;
+  justify-content: space-evenly;
+  width: 12vw;
+  color: var(--white);
 }
 
-#astronaut {
-  top: 26vw;
-  right: 0vw;
-  width: 30vw;
+.timer-element p {
+  margin: 15px;
 }
 
-@media (max-width: 1368px) {
-  #saturn {
-    top: 40vw;
-  }
+#mountains {
+  margin-top: -10rem;
+}
 
-  #astronaut {
-    top: 35vw;
-  }
+#river {
+  margin-top: -65rem;
+  margin-bottom: -10px;
 }
 
 @media (min-width: 1800px) {
   #landing-wrapper {
     margin-top: 5vw;
-  }
-
-  #saturn {
-    top: 20vw;
-  }
-
-  #astronaut {
-    top: 15vw;
   }
 }
 
@@ -99,15 +88,6 @@
   #landing-title {
     font-size: 10em;
   }
-
-  #saturn {
-    top: 55vw;
-    left: -12vw;
-  }
-
-  #astronaut {
-    top: 45vw;
-  }
 }
 
 @media (max-width: 820px) {
@@ -117,10 +97,6 @@
 
   #landing-title {
     font-size: 6rem;
-  }
-
-  #date {
-    font-size: 3rem;
   }
 
   .landing-btn {
@@ -138,26 +114,9 @@
     font-size: 5rem;
   }
 
-  #date {
-    font-size: 2rem;
-  }
-
   .landing-btn {
     font-size: 2rem;
     padding: 1rem 1.5rem;
   }
 
-  #saturn {
-    top: 75vh;
-  }
-
-  #astronaut {
-    top: 30vh;
-  }
-}
-
-@media (max-width: 375px) {
-  #saturn {
-    top: 85vh;
-  }
 }

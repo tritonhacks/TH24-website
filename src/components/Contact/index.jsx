@@ -1,6 +1,5 @@
 import "./style.css";
-import terrain from "../../assets/terrain.svg";
-import rover from "../../assets/rover.svg";
+import walkietalkie from "../../assets/walkie_talkie.svg";
 import facebook from "../../assets/fb.svg";
 import instagram from "../../assets/insta.svg";
 // import discord from "../../assets/discord.svg";
@@ -10,13 +9,13 @@ import mail from "../../assets/mail.svg";
 const Contact = () => {
     return (
         <section id="footer">
-            <img id="terrain" src={terrain} alt="terrain" />
-            <img id="rover" src={rover} alt="rover" />
             <div id="content">
-                <h1 id="contact">Let's Make Contact!</h1>
+                <img src={walkietalkie} alt="walkietalkie" id="walkietalkie"/>
 
-                <div id="cols">
-                    <div class="col">
+                <div id="text">
+                    <h1 id="contact">Over and out</h1>
+
+                    <div class="sec">
                         <p>Questions?</p>
                         <p>Contact Our Team</p>
                         <div id="mail">
@@ -24,7 +23,7 @@ const Contact = () => {
                             <a href="mailto:tritonhacks@gmail.com" target="_blank" rel="noreferrer" className="icon">tritonhacks@gmail.com</a>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="sec">
                         <p>Interested in TritonHacks?</p>
                         <p>Follow us on social media!</p>
                         <div id="icon-box">

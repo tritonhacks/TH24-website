@@ -1,32 +1,23 @@
 #sponsors-wrapper {
     color: var(--white);
+    margin-top: -5px;
     z-index: 0;
     margin-bottom: 50vh;
 }
 
-#smoke-bottom {
+#bottle {
+    position: absolute;
+    left: 0%;
+    width: 35vw;
     z-index: 0;
-    position: relative;
-    width: 105vw;
 }
 
-#spaceship {
+#sponsorText {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-
-#alien {
-    position: relative;
-    height: 25vw;
-    z-index: 10;
-}
-
-#beam {
-    width: 90vw;
-    margin-top: -8vw;
-    margin-bottom: -40vw;
+    width: 55%;
+    padding-left: 35%;
 }
 
 #sponsors {
@@ -40,40 +31,40 @@
 }
 
 #sponsor-us {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     margin: 0;
+    font-family: 'Abel';
 }
 
 #email {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: underline;
     color: var(--white);
-    font-family: 'Cute Font', cursive;
+    font-family: 'Abel';
 }
 
-#partner-images,
 #sponsor-images {
+    position: relative;
+    width: 20vw;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-content: center;
     align-items: center;
     text-align: center;
-    margin: 0 5rem;
+    margin: 0 8rem;
 }
 
-#sponsor-images img,
-#partner-images img {
+#sponsor-images img {
     height: auto;
-    max-width: 15rem;
-    margin: 1rem;
+    max-width: 8rem;
+    margin: .5rem;
     cursor: pointer;
+    z-index: 1;
 }
 
-#sponsor-images img:hover,
-#partner-images img:hover {
+#sponsor-images img:hover {
     transform: scale(1.1);
 }
 
@@ -90,8 +81,7 @@
         margin-top: 20vh;
     }
 
-    #sponsor-images img,
-    #partner-images img {
+    #sponsor-images img {
         max-width: 12rem;
     }
 }
@@ -101,8 +91,7 @@
         margin-top: 10vh;
     }
 
-    #sponsor-images img,
-    #partner-images img {
+    #sponsor-images img {
         max-width: 10rem;
     }
 }
@@ -122,8 +111,7 @@
         margin: 5rem 2rem 0;
     }
 
-    #sponsor-images img,
-    #partner-images img {
+    #sponsor-images img {
         max-width: 8rem;
     }
 }
@@ -143,13 +131,7 @@
         margin: 0 1rem;
     }
 
-    #sponsor-images img,
-    #partner-images img {
+    #sponsor-images img {
         max-width: 6rem;
     }
-
-    #smoke-bottom {
-        margin-top: 10px;
-    }
-
 }
