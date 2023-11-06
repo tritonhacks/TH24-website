@@ -52,7 +52,7 @@ const Landing = () => {
             <div id="landing-fg">
                 <h1 id="landing-title">TritonHacks</h1>
                 <div id="landing-btn-wrapper">
-                    <a href="#" target="_blank" rel="noreferrer" class="landing-btn">Apply</a>
+                    <a href="/" target="_blank" rel="noreferrer" class="landing-btn">Apply</a>
                 </div>
                 <div id="countdown-text">
                     <div id="timer">

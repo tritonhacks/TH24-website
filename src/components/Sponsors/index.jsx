@@ -1,21 +1,16 @@
 import "./style.css";
-import watterbottle from "../../assets/water_bottle.svg";
+import waterbottle from "../../assets/water_bottle.svg";
 import cseucsd from "../../assets/logos/cseucsd.png";
 import codeorg from "../../assets/logos/codeorg.png";
 import create from "../../assets/logos/create.png";
 import csfe from "../../assets/logos/csfe-logo.svg";
 import cstasd from "../../assets/logos/csta.png";
-import familia from "../../assets/logos/familia.png";
-import googlecloud from "../../assets/logos/google-cloud.png";
 import netapp from "../../assets/logos/netapp.png";
-import trace3 from "../../assets/logos/trace3.png";
-import ucsdidea from "../../assets/logos/ucsd-idea.png";
-
 
 const Sponsors = () => {
   return (
     <section id="sponsors-wrapper">
-      <img src={watterbottle} alt="watterbottle" id="bottle"></img>
+      <img src={waterbottle} alt="waterbottle" id="bottle"></img>
 
       <div id="sponsorText">
         <h1 id="sponsors">Sponsors</h1>

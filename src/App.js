@@ -1,6 +1,5 @@
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
-import About from "./components/About";
 import FAQ from "./components/FAQ";
 import Sponsors from "./components/Sponsors";
 import Contact from "./components/Contact";
