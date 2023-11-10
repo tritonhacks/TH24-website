@@ -26,9 +26,9 @@
   flex-direction: column;
   padding: 5vh 8vh 5vh;
   justify-content: center;
-  align-items: flex-end;
-  width: 60%;
-  padding-left: 35%;
+  align-items: center;
+  width: 60vw;
+  padding-left: 35vw;
 }
 
 .sec {

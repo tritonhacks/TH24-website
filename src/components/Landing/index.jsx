@@ -46,11 +46,52 @@ const Landing = () => {
         return () => clearInterval(countdownTimer);
     }, []);
 
+    const [isVisible, setIsVisible] = useState(true);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            // Adjust the scroll position threshold as needed
+            const scrollThreshold = 1100;
+
+            // Check if the scroll position is past the threshold
+            if (window.scrollY > scrollThreshold && isVisible) {
+                setIsVisible(false);
+            } else if (window.scrollY <= scrollThreshold && !isVisible) {
+                setIsVisible(true);
+            }
+        };
+
+        // Attach the scroll event listener when the component mounts
+        window.addEventListener('scroll', handleScroll);
+
+        // Clean up the event listener when the component unmounts
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [isVisible]);
+
     return (
         <section id="landing-wrapper">
             {/* Foreground - text, buttons, etc */}
             <div id="landing-fg">
+                {isVisible && (
                 <h1 id="landing-title">TritonHacks</h1>
+      )}
+                {/* <h1 id="landing-title">TritonHacks</h1> */}
+
+
+            </div>
+
+            {/* Midground - static images */}
+            <div id="landing-mg">
+                <img src={mountains} alt="mountains" id="mountains" />
+            </div>
+
+            <div id="landing-bg">
+                <img src={river} alt="river" id="river" />
+                <div id="landing-text">
+                    
+                </div>
                 <div id="landing-btn-wrapper">
                     <a href="/" target="_blank" rel="noreferrer" class="landing-btn">Apply</a>
                 </div>
@@ -82,16 +123,6 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
-
-            </div>
-
-            {/* Midground - static images */}
-            <div id="landing-mg">
-                <img src={mountains} alt="mountains" id="mountains" />
-            </div>
-
-            <div id="landing-bg">
-                <img src={river} alt="river" id="river" />
             </div>
         </section>
     );

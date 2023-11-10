@@ -1,9 +1,8 @@
 #landing-wrapper {
-  padding: 0;
-  margin-bottom: 10vw;
+  padding-top: 10vh;
+  margin-bottom: 20vw;
   min-height: max(700px, 100vh);
   background: linear-gradient(348deg, #FFEABB 55.95%, rgba(16, 113, 81, 0.01) 133.72%);
-  /* simple parallax */
 }
 
 /* Foreground = text, buttons, non-animated elements */
@@ -23,12 +22,21 @@
   line-height: 2rem;
   letter-spacing: 0.25rem;
   text-transform: uppercase;
+  position: fixed;
+}
+
+#landing-bg {
+  position: relative;
+}
+
+#landing-text {
+  margin-bottom: -25vw;
 }
 
 #landing-btn-wrapper {
-  position: absolute;
-  top: 163rem;
-  left: 55rem;
+  position: relative;
+  top: -13vw;
+  left: 61vw;
 }
 
 .landing-btn {
@@ -47,9 +55,9 @@
 }
 
 #countdown-text {
-  position: absolute;
-  top: 91.5rem;
-  left: 8rem;
+  position: relative;
+  top: -95.5vw;
+  left: 8.5vw;
   font-size: 1.8rem;
   text-transform: uppercase;
 }
@@ -67,16 +75,40 @@
 
 #mountains {
   margin-top: -10rem;
+  width: 100vw;
 }
 
 #river {
   margin-top: -65rem;
   margin-bottom: -10px;
+  width: 100vw;
 }
 
 @media (min-width: 1800px) {
   #landing-wrapper {
     margin-top: 5vw;
+  }
+
+  #landing-bg {
+    position: relative;
+    top: -30vh;
+  }
+
+  #landing-text {
+  margin-bottom: -35vw;
+}
+
+  .timer-element p {
+    margin: 25px;
+  }
+
+  #countdown-text {
+    top: -85vw;
+  }
+
+  #landing-btn-wrapper {
+    top: -3vw;
+    left: 65vw;
   }
 }
 

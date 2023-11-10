@@ -17,7 +17,7 @@ body {
   scroll-padding-top: 18vh;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  background: #0A0034;
+  background: var(--forest-green);
   width: 100vw;
 }
 
@@ -39,7 +39,7 @@ a {
 }
 
 .section2 {
-  margin-top: -10px;
+  margin-top: -50px;
 }
 
 
