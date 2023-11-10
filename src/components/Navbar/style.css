@@ -8,6 +8,8 @@
     z-index: 20;
     transition: all .2s ease-in;
     font-size: 2rem;
+      background: linear-gradient(348deg, #cfba8b 55.95%, rgba(16, 113, 81, 0.01) 133.72%);
+
 }
 
 .scrolled {
