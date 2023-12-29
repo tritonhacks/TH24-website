@@ -25,6 +25,16 @@
   position: fixed;
 }
 
+#landing-date {
+  margin-top: 18rem;
+  color: var(--white);
+  font-size: 5rem;
+  line-height: 2rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  position: fixed;
+}
+
 #landing-bg {
   position: relative;
 }
@@ -56,9 +66,9 @@
 
 #countdown-text {
   position: relative;
-  top: -95.5vw;
+  top: -107.5vw;
   left: 8.5vw;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 
@@ -74,12 +84,12 @@
 }
 
 #mountains {
-  margin-top: -10rem;
+  margin-top: -5rem;
   width: 100vw;
 }
 
 #river {
-  margin-top: -65rem;
+  margin-top: -80rem;
   margin-bottom: -10px;
   width: 100vw;
 }

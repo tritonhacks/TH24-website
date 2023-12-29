@@ -6,6 +6,7 @@ import create from "../../assets/logos/create.png";
 import csfe from "../../assets/logos/csfe-logo.svg";
 import cstasd from "../../assets/logos/csta.png";
 import netapp from "../../assets/logos/netapp.png";
+import React from 'react';
 
 const Sponsors = () => {
   return (

@@ -1,5 +1,6 @@
 import "./style.css";
 import { useState, useEffect } from "react";
+import React from 'react';
 
 import mountains from "../../assets/mountains.svg";
 import river from "../../assets/river.svg";
@@ -47,18 +48,21 @@ const Landing = () => {
     }, []);
 
     const [isVisible, setIsVisible] = useState(true);
+    const [isBehindRiver, setIsBehindRiver] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
             // Adjust the scroll position threshold as needed
-            const scrollThreshold = 1100;
-
+            const scrollThreshold = 900;
+            
             // Check if the scroll position is past the threshold
             if (window.scrollY > scrollThreshold && isVisible) {
                 setIsVisible(false);
             } else if (window.scrollY <= scrollThreshold && !isVisible) {
                 setIsVisible(true);
             }
+
+
         };
 
         // Attach the scroll event listener when the component mounts
@@ -78,6 +82,10 @@ const Landing = () => {
                 <h1 id="landing-title">TritonHacks</h1>
       )}
                 {/* <h1 id="landing-title">TritonHacks</h1> */}
+                {isVisible && (
+               <h2 id="landing-date">May 18th - May 19th 2024</h2>
+      )}
+                
 
 
             </div>

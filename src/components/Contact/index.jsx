@@ -4,6 +4,7 @@ import facebook from "../../assets/fb.svg";
 import instagram from "../../assets/insta.svg";
 // import discord from "../../assets/discord.svg";
 import csfe from "../../assets/csfe.svg";
+import React from 'react';
 import mail from "../../assets/mail.svg";
 
 const Contact = () => {
