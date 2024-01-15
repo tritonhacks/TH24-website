@@ -52,7 +52,7 @@ const Landing = () => {
     useEffect(() => {
         const handleScroll = () => {
             // Adjust the scroll position threshold as needed
-            const scrollThreshold = 900;
+            const scrollThreshold = 800;
 
             // Check if the scroll position is past the threshold
             if (window.scrollY > scrollThreshold && isVisible) {

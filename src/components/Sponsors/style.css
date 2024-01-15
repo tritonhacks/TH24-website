@@ -97,6 +97,10 @@
         margin: 0 6rem;
         padding: 15rem 0 0 0;
     }
+
+    #sponsors {
+        padding-top: 20vw;
+    }
 }
 
 @media (max-width: 820px) {
@@ -111,36 +115,44 @@
 
     #sponsors-wrapper {
         margin-top: 70vw;
-        margin-bottom: 50vh;
+        margin-bottom: 30vh;
     }
 
     #sponsors {
         font-size: 6rem;
-        padding-top: 20vw;
-        font-size: 7rem;
+        padding-top: 40vw;
     }
 
-    #sponsor-us, #email{
+    #sponsor-us,
+    #email {
         font-size: 1.5rem;
     }
 }
 
 @media (max-width: 480px) {
+    #sponsor-images img {
+        max-width: 1.5rem;
+        margin: .25rem;
+    }
+
+    #sponsor-images {
+        margin: 0 2.5rem;
+        padding: 5rem 0 0 0;
+    }
+
+    #sponsors-wrapper {
+        margin-top: 60vw;
+        margin-bottom: 30vh;
+    }
+
     #sponsors {
-        font-size: 4rem;
+        font-size: 3.5rem;
+        padding-top: 130vw;
+        margin-bottom: 2rem;
     }
 
     #sponsor-us,
     #email {
-        margin-top: 15vh;
-        font-size: 1.5rem;
-    }
-
-    #sponsor-images {
-        margin: 0 1rem;
-    }
-
-    #sponsor-images img {
-        max-width: 6rem;
+        font-size: 1.25rem;
     }
 }

@@ -110,10 +110,9 @@ a {
 }
 
 @media (max-width: 820px) {
-  .sec p,
-  .sec a {
-    line-height: 1rem;
-    font-size: 1.25rem;
+  #contact {
+    margin-left: 0;
+    margin-top: -20vw;
   }
 }
 
@@ -122,16 +121,15 @@ a {
     font-size: 3.5rem;
   }
 
-  #text {
-    flex-direction: column;
-    padding: 0;
-  }
-
   .sec p,
   .sec a {
-    line-height: 2rem;
+    line-height: 1rem;
     font-size: 16px;
     margin: .5rem 0;
+  }
+
+  .sec {
+    margin: 1rem 0;
   }
 
   #mail,
@@ -144,7 +142,7 @@ a {
   }
 
   .footer-icon {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
   }
 }

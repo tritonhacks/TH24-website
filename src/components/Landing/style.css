@@ -201,7 +201,7 @@
     font-size: 4rem;
   }
 
-   #landing-btn-wrapper {
+  #landing-btn-wrapper {
     left: 59vw;
   }
 
@@ -250,7 +250,7 @@
     padding: 20vw 0 100vw;
   }
 
-   #timer {
+  #timer {
     grid-template-rows: 2.5rem 2.5rem 2.5rem 2.5rem;
     font-size: 1rem;
   }
@@ -267,7 +267,7 @@
     font-size: 2.5rem;
   }
 
-   #landing-btn-wrapper {
+  #landing-btn-wrapper {
     left: 54vw;
   }
 }
@@ -277,7 +277,7 @@
     padding: 20vw 0 120vw;
   }
 
-   #timer {
+  #timer {
     grid-template-rows: 2.25rem 2.25rem 2.25rem 2.25rem;
     font-size: .75rem;
   }
@@ -290,7 +290,7 @@
     font-size: 2rem;
   }
 
-   #landing-btn-wrapper {
+  #landing-btn-wrapper {
     left: 53vw;
   }
 }
@@ -309,7 +309,7 @@
     font-size: 1.5rem;
   }
 
-   #timer {
+  #timer {
     grid-template-rows: 1.25rem 1.25rem 1.25rem 1.25rem;
     font-size: .5rem;
   }
@@ -322,8 +322,8 @@
     font-size: 1.5rem;
   }
 
-   #landing-btn-wrapper {
-    left: 40vw;
+  #landing-btn-wrapper {
+    left: 39vw;
     top: -15vw;
   }
 }
