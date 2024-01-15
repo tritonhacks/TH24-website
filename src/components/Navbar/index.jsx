@@ -3,10 +3,10 @@ import React, { useState, useEffect } from "react";
 import Logo from "../../assets/logo.svg";
 
 const links = [
-  {
-    id: "about",
-    displayText: "About",
-  },
+  // {
+  //   id: "about",
+  //   displayText: "About",
+  // },
   {
     id: "sponsors",
     displayText: "Sponsors",
@@ -54,6 +54,8 @@ const Navbar = () => {
               {link.displayText}
             </a>
           ))}
+          <a class="underline" href="/" target="_blank" rel="noreferrer">Apply</a>
+
 
         </div>
       </div>
