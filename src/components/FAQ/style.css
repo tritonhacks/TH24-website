@@ -49,11 +49,25 @@
     margin-right: 30rem;
 }
 
+@media (max-width: 1180px) {
+    #faq-title {
+        font-size: 7rem;
+    }
+
+    #compass {
+        margin-top: -50vw;
+    }
+}
+
 @media (max-width: 820px) {
     #faq-title {
         font-size: 6rem;
         padding-left: 5vw;
-        margin-right: 40vw;
+        margin: 0 60vw 10vw 0;
+    }
+
+    #compass {
+        margin-top: -60vw;
     }
 
     #questions {
@@ -69,6 +83,10 @@
     .answer b {
         font-size: 1.5rem;
         padding-bottom: 5vw;
+    }
+
+    #hackAnswer {
+        margin-right: 0;
     }
 }
 

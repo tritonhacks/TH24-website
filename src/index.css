@@ -41,10 +41,3 @@ a {
 .section2 {
   margin-top: -50px;
 }
-
-
-@media (max-width: 1180px) {
-  .stars {
-    background-size: contain;
-  }
-}

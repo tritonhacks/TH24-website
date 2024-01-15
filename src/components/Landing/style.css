@@ -27,8 +27,8 @@
 
 #landing-date {
   margin-top: 18rem;
-  color: var(--white);
-  font-size: 5rem;
+  color: var(--dark-green);
+  font-size: 3.5rem;
   line-height: 2rem;
   letter-spacing: 0.25rem;
   text-transform: uppercase;
@@ -66,21 +66,54 @@
 
 #countdown-text {
   position: relative;
-  top: -107.5vw;
+  top: -95.5vw;
   left: 8.5vw;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
-.timer-element {
-  display: flex;
-  justify-content: space-evenly;
-  width: 12vw;
+#timer {
+  display: grid;
+  align-items: center;
+  grid-template-rows: 4rem 4rem 4rem 4rem;
+  width: 15vw;
   color: var(--white);
 }
 
-.timer-element p {
-  margin: 15px;
+#timer p {
+  margin: 0;
+}
+
+#days-num {
+  grid-area: 1 / 1;
+}
+
+#days-text {
+  grid-area: 1 / 2;
+}
+
+#hours-num {
+  grid-area: 2 / 1;
+}
+
+#hours-text {
+  grid-area: 2 / 2;
+}
+
+#minutes-num {
+  grid-area: 3 / 1;
+}
+
+#minutes-text {
+  grid-area: 3 / 2;
+}
+
+#seconds-num {
+  grid-area: 4 / 1;
+}
+
+#seconds-text {
+  grid-area: 4 / 2;
 }
 
 #mountains {
@@ -105,8 +138,8 @@
   }
 
   #landing-text {
-  margin-bottom: -35vw;
-}
+    margin-bottom: -35vw;
+  }
 
   .timer-element p {
     margin: 25px;
@@ -122,14 +155,90 @@
   }
 }
 
-@media (max-width: 1024px) {
-  #landing-wrapper {
-    margin-top: 10vw;
+@media (max-width: 1350px) {
+  #countdown-text {
+    top: -96vw;
+    left: 8vw;
+  }
+
+  #timer {
+    grid-template-rows: 3.5rem 3.5rem 3.5rem 3.5rem;
+  }
+
+  #landing-fg {
+    padding: 20vw 0 55vw;
   }
 
   #landing-title {
-    font-size: 10em;
+    font-size: 8rem;
   }
+
+  #landing-date {
+    margin-top: 15rem;
+    font-size: 3rem;
+  }
+
+  #landing-btn-wrapper {
+    left: 58vw;
+  }
+}
+
+@media (max-width: 1180px) {
+  #landing-fg {
+    padding: 20vw 0 55vw;
+  }
+
+  #countdown-text {
+    font-size: 1.25rem;
+    left: 8.75vw;
+  }
+
+  #landing-title {
+    font-size: 8em;
+  }
+
+  .landing-btn {
+    font-size: 4rem;
+  }
+
+   #landing-btn-wrapper {
+    left: 59vw;
+  }
+
+}
+
+@media (max-width: 1080px) {
+  #landing-fg {
+    padding: 20vw 0 65vw;
+  }
+
+  #countdown-text {
+    font-size: 1rem;
+    top: -96.5vw;
+  }
+
+  #landing-btn-wrapper {
+    left: 56vw;
+  }
+
+  #timer {
+    grid-template-rows: 3rem 3rem 3rem 3rem;
+  }
+}
+
+@media (max-width: 972px) {
+  #landing-fg {
+    padding: 20vw 0 80vw;
+  }
+
+  #countdown-text {
+    top: -97vw;
+  }
+
+  .landing-btn {
+    font-size: 3rem;
+  }
+
 }
 
 @media (max-width: 820px) {
@@ -137,28 +246,84 @@
     margin-bottom: -50vw;
   }
 
-  #landing-title {
-    font-size: 6rem;
+  #landing-fg {
+    padding: 20vw 0 100vw;
   }
 
-  .landing-btn {
-    font-size: 3rem;
-    padding: 1.5rem 2rem;
-  }
-}
-
-@media (max-width: 480px) {
-  #landing-wrapper {
-    margin-top: 25vh;
+   #timer {
+    grid-template-rows: 2.5rem 2.5rem 2.5rem 2.5rem;
+    font-size: 1rem;
   }
 
   #landing-title {
     font-size: 5rem;
   }
 
-  .landing-btn {
-    font-size: 2rem;
-    padding: 1rem 1.5rem;
+  #landing-date {
+    font-size: 2.5rem;
   }
 
+  .landing-btn {
+    font-size: 2.5rem;
+  }
+
+   #landing-btn-wrapper {
+    left: 54vw;
+  }
+}
+
+@media (max-width: 768px) {
+  #landing-fg {
+    padding: 20vw 0 120vw;
+  }
+
+   #timer {
+    grid-template-rows: 2.25rem 2.25rem 2.25rem 2.25rem;
+    font-size: .75rem;
+  }
+
+  #landing-title {
+    font-size: 5rem;
+  }
+
+  #landing-date {
+    font-size: 2rem;
+  }
+
+   #landing-btn-wrapper {
+    left: 53vw;
+  }
+}
+
+@media (max-width: 480px) {
+  #landing-fg {
+    padding: 20vw 0 150vw;
+  }
+
+  #landing-title {
+    font-size: 3rem;
+  }
+
+  #landing-date {
+    margin-top: 8rem;
+    font-size: 1.5rem;
+  }
+
+   #timer {
+    grid-template-rows: 1.25rem 1.25rem 1.25rem 1.25rem;
+    font-size: .5rem;
+  }
+
+  #countdown-text {
+    top: -100vw;
+  }
+
+  .landing-btn {
+    font-size: 1.5rem;
+  }
+
+   #landing-btn-wrapper {
+    left: 40vw;
+    top: -15vw;
+  }
 }

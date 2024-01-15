@@ -48,13 +48,12 @@ const Landing = () => {
     }, []);
 
     const [isVisible, setIsVisible] = useState(true);
-    const [isBehindRiver, setIsBehindRiver] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
             // Adjust the scroll position threshold as needed
             const scrollThreshold = 900;
-            
+
             // Check if the scroll position is past the threshold
             if (window.scrollY > scrollThreshold && isVisible) {
                 setIsVisible(false);
@@ -79,15 +78,11 @@ const Landing = () => {
             {/* Foreground - text, buttons, etc */}
             <div id="landing-fg">
                 {isVisible && (
-                <h1 id="landing-title">TritonHacks</h1>
-      )}
-                {/* <h1 id="landing-title">TritonHacks</h1> */}
+                    <h1 id="landing-title">TritonHacks</h1>
+                )}
                 {isVisible && (
-               <h2 id="landing-date">May 18th - May 19th 2024</h2>
-      )}
-                
-
-
+                    <h2 id="landing-date">May 18th - 19th 2024</h2>
+                )}
             </div>
 
             {/* Midground - static images */}
@@ -98,37 +93,29 @@ const Landing = () => {
             <div id="landing-bg">
                 <img src={river} alt="river" id="river" />
                 <div id="landing-text">
-                    
+
                 </div>
                 <div id="landing-btn-wrapper">
                     <a href="/" target="_blank" rel="noreferrer" class="landing-btn">Apply</a>
                 </div>
                 <div id="countdown-text">
                     <div id="timer">
-                        <div class="timer-element">
-                            <p id="days-num" class="num">
-                                {days}
-                            </p>
-                            <p class="text">days</p>
-                        </div>
-                        <div class="timer-element">
-                            <p id="hours-num" class="num">
-                                {hours}
-                            </p>
-                            <p class="text">hours</p>
-                        </div>
-                        <div class="timer-element">
-                            <p id="minutes-num" class="num">
-                                {minutes}
-                            </p>
-                            <p class="text">minutes</p>
-                        </div>
-                        <div class="timer-element">
-                            <p id="seconds-num" class="num">
-                                {seconds}
-                            </p>
-                            <p class="text">seconds</p>
-                        </div>
+                        <p id="days-num" class="num">
+                            {days}
+                        </p>
+                        <p id="days-text" class="text">days</p>
+                        <p id="hours-num" class="num">
+                            {hours}
+                        </p>
+                        <p id="hours-text" class="text">hours</p>
+                        <p id="minutes-num" class="num">
+                            {minutes}
+                        </p>
+                        <p id="minutes-text" class="text">minutes</p>
+                        <p id="seconds-num" class="num">
+                            {seconds}
+                        </p>
+                        <p id="seconds-text" class="text">seconds</p>
                     </div>
                 </div>
             </div>

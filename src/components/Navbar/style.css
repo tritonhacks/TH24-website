@@ -76,11 +76,6 @@
     color: white;
 }
 
-@media (max-width: 1180px) {
-    .navbar-container {
-        padding: 2.5rem 0 1rem;
-    }
-}
 
 @media (max-width: 1024px) {
     .navbar-title img {
@@ -88,10 +83,7 @@
     }
 
     .navbar-container {
-        padding: 2rem 0 1rem;
-    }
-
-    .navbar-container {
+        padding: 0;
         flex-flow: column nowrap;
         justify-content: center;
     }
@@ -105,7 +97,6 @@
 
 @media (max-width: 820px) {
     .navbar-container {
-        padding: 2rem 0 0;
         margin-bottom: -1rem;
     }
 }

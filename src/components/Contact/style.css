@@ -4,6 +4,7 @@
 
 #content {
   color: var(--white);
+  text-align: center;
 }
 
 #contact {
@@ -12,7 +13,6 @@
   margin-bottom: 0;
   text-transform: uppercase;
 }
-
 
 #walkietalkie {
   position: absolute;
@@ -97,7 +97,9 @@ a {
 @media (max-width: 1250px) {
   #contact {
     font-size: 7rem;
+    margin-top: 0;
   }
+
 }
 
 @media (max-width: 1050px) {
@@ -108,10 +110,6 @@ a {
 }
 
 @media (max-width: 820px) {
-  #text {
-    padding: 0 0 5vh;
-  }
-
   .sec p,
   .sec a {
     line-height: 1rem;
