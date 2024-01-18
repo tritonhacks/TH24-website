@@ -141,3 +141,13 @@
         line-height: 1.5rem;
     }
 }
+
+
+@media (max-width: 390px) {
+    .question {
+        font-size: 2rem;
+        line-height: 1.75rem;
+
+    }
+
+}

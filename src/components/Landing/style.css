@@ -326,4 +326,29 @@
     left: 39vw;
     top: -15vw;
   }
+  
+  #river {
+    margin-bottom: -5vw;
+  }
+}
+
+@media (max-width: 390px) {
+  #landing-date {
+    margin-top: 8rem;
+    font-size: 1rem;
+  }
+
+  #countdown-text {
+    top: -99vw;
+  }
+
+  #timer {
+    grid-template-rows: 1.25rem 1rem 1.25rem 1.25rem;
+    font-size: .4rem;
+  }
+
+  #landing-btn-wrapper {
+    left: 35vw;
+    top: -13vw;
+  }
 }

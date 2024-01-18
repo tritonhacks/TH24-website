@@ -118,7 +118,7 @@ a {
 
 @media (max-width: 480px) {
   #contact {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 
   .sec p,
@@ -145,4 +145,18 @@ a {
     width: 2rem;
     height: 2rem;
   }
+}
+
+@media (max-width: 390px) {
+  #footer {
+    margin-top: 20vw;
+  }
+
+  .sec p,
+  .sec a {
+    line-height: .75rem;
+    font-size: 12px;
+    margin: .25rem 0;
+  }
+
 }

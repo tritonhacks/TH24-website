@@ -146,7 +146,7 @@
     }
 
     #sponsors {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         padding-top: 130vw;
         margin-bottom: 2rem;
     }
@@ -154,5 +154,16 @@
     #sponsor-us,
     #email {
         font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 390px) {
+    #sponsors-wrapper {
+        margin-top: 70vw;
+    }
+
+    #sponsor-us,
+    #email {
+        font-size: 1rem;
     }
 }
