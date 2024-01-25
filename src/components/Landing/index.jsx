@@ -96,7 +96,7 @@ const Landing = () => {
 
                 </div>
                 <div id="landing-btn-wrapper">
-                    <a href="/" target="_blank" rel="noreferrer" class="landing-btn">Apply</a>
+                    <a href="https://bit.ly/TritonHacksApplication" target="_blank" rel="noreferrer" class="landing-btn">Apply</a>
                 </div>
                 <div id="countdown-text">
                     <div id="timer">

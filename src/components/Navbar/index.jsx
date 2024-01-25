@@ -54,7 +54,7 @@ const Navbar = () => {
               {link.displayText}
             </a>
           ))}
-          <a class="underline" href="/" target="_blank" rel="noreferrer">Apply</a>
+          <a class="underline" href="https://bit.ly/TritonHacksApplication" target="_blank" rel="noreferrer">Apply</a>
 
 
         </div>
