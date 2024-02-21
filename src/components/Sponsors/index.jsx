@@ -8,6 +8,7 @@ import sublime from "../../assets/logos/sublime.png";
 import desmos from "../../assets/logos/desmos.png";
 import amazon from "../../assets/logos/amazon.png";
 import wolfram from "../../assets/logos/wolfram.png";
+import janestreet from "../../assets/logos/jane_street.png";
 import React from 'react';
 
 const Sponsors = () => {
@@ -40,6 +41,10 @@ const Sponsors = () => {
         <a href="https://www.wolfram.com" target="_blank" rel="noreferrer">
           <img src={wolfram} alt="Wolfram"></img>
         </a>
+         <a href="https://www.janestreet.com" target="_blank" rel="noreferrer">
+          <img src={janestreet} alt="Jane Street"></img>
+        </a>
+        
       </div>
 
       <div class="rightText">
